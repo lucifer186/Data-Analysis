@@ -17,8 +17,13 @@ This project allows users to upload CSV files, performs data analysis using pand
 3. Once you upload the csv file it stored the csv file in your project directory for reading purpose and manuplate the data. 
 4. I created a analyze function where it read the csv file thorugh pandas library and it summarized the data like mean, median, mode and Histograms plots show in web page.
     (it will redirect to the analyze.html file for representation and analyze function used ffor analyze the data (mean, median, missing value, handle missing value)
-     and plots function it plots the simple Histograms
-   )
+     and plots function it plots the simple Histograms)
+
+   
+# Images
+![analysis](https://github.com/user-attachments/assets/0b0266b9-289a-4b8f-9183-0dbbbc7fc532)
+![file_upload](https://github.com/user-attachments/assets/8deb783d-3c12-40e4-a672-a005dcd379a6)
+![plots](https://github.com/user-attachments/assets/aa52952f-28fc-4e12-af4a-27cbe3ee7620)
 
 ## Sample CSV File
 
