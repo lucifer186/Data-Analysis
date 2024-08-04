@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Data Analysis Results</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="display-4">Data Analysis Results</h1>
+      <hr />
+      <h2 class="mb-3">Data Preview</h2>
+      
+      <div class="alert alert-secondary">{{ data_preview|safe }}</div>
+      <h2 class="mb-3">Summary Statistics</h2>
+      <div class="alert alert-secondary">{{ summary_stats|safe }}</div>
+      <h2 class="mb-3">Missing Values</h2>
+      <div class="alert alert-secondary">{{ missing_values|safe }}</div>
+
+      <h2 class="mb-3">Plots</h2>
+      <div class="col">
+        {% for plot in plot_files %}
+        <div class="col-md-4 mb-3">
+          <img src="media/{{ plot }}" alt="Plot" class="center" width="700" height="600" />
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </body>
+</html>
