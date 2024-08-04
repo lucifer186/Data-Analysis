@@ -11,7 +11,7 @@ This project allows users to upload CSV files, performs data analysis using pand
 5. Run the Django development server: `python manage.py runserver`
 6. Open a web browser and navigate to `http://localhost:8000/data_analysis/`
 
-# Project overview:
+# Project overview
 1. In Data analysis project Just created a empty string url in urls.py which redirect to data_analysis app where I create a urls.py.
 2. Developed a upload_csv.html where user can upload the csv file and created a view based on required field format.
 3. Once you upload the csv file it stored the csv file in your project directory for reading purpose and manuplate the data. 
