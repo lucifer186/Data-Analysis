@@ -28,4 +28,4 @@ This project allows users to upload CSV files, performs data analysis using pand
 
 ## Sample CSV File
 
-A sample CSV file is provided in the `data_dummy1` directory. You can use this file to
+A sample CSV file is provided in the `temp.csv` directory. You can use this file to
